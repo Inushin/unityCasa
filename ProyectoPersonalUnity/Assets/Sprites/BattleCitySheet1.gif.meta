@@ -1,0 +1,3912 @@
+fileFormatVersion: 2
+guid: ecc31f1dc0341954a99a9725f9c2151d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6319472430676580129
+    second: BattleCitySheet1_0
+  - first:
+      213: 8548413366793193595
+    second: BattleCitySheet1_1
+  - first:
+      213: -7072880671583113032
+    second: BattleCitySheet1_2
+  - first:
+      213: 4092378406101510917
+    second: BattleCitySheet1_3
+  - first:
+      213: -998366498415874682
+    second: BattleCitySheet1_4
+  - first:
+      213: 483218754554060761
+    second: BattleCitySheet1_5
+  - first:
+      213: 4079908791975931664
+    second: BattleCitySheet1_6
+  - first:
+      213: 5625447991944656010
+    second: BattleCitySheet1_7
+  - first:
+      213: 4441574059716090958
+    second: BattleCitySheet1_8
+  - first:
+      213: 6932335707503343138
+    second: BattleCitySheet1_9
+  - first:
+      213: -2431095483896724838
+    second: BattleCitySheet1_10
+  - first:
+      213: -1954506153525292934
+    second: BattleCitySheet1_11
+  - first:
+      213: 2738839825968907417
+    second: BattleCitySheet1_12
+  - first:
+      213: -7411992795701032730
+    second: BattleCitySheet1_13
+  - first:
+      213: -2386612614318771074
+    second: BattleCitySheet1_14
+  - first:
+      213: 1669432613454369756
+    second: BattleCitySheet1_15
+  - first:
+      213: 2586881326480193755
+    second: BattleCitySheet1_16
+  - first:
+      213: 7913338218015832422
+    second: BattleCitySheet1_17
+  - first:
+      213: -6822331075665538398
+    second: BattleCitySheet1_18
+  - first:
+      213: 1146658344217879419
+    second: BattleCitySheet1_19
+  - first:
+      213: -3318101071167256941
+    second: BattleCitySheet1_20
+  - first:
+      213: -6233885903701046160
+    second: BattleCitySheet1_21
+  - first:
+      213: -3118207311825813244
+    second: BattleCitySheet1_22
+  - first:
+      213: -5052674558313007584
+    second: BattleCitySheet1_23
+  - first:
+      213: 5519171426398472880
+    second: BattleCitySheet1_24
+  - first:
+      213: 7756714007067434375
+    second: BattleCitySheet1_25
+  - first:
+      213: -1474319736468503567
+    second: BattleCitySheet1_26
+  - first:
+      213: -4607352348624692573
+    second: BattleCitySheet1_27
+  - first:
+      213: -8494091275235669211
+    second: BattleCitySheet1_28
+  - first:
+      213: -9207902530259772712
+    second: BattleCitySheet1_29
+  - first:
+      213: -4829957330553753077
+    second: BattleCitySheet1_30
+  - first:
+      213: 2851500783467541461
+    second: BattleCitySheet1_31
+  - first:
+      213: -65380391272142025
+    second: BattleCitySheet1_32
+  - first:
+      213: 7694163368100140667
+    second: BattleCitySheet1_33
+  - first:
+      213: 59395837682130967
+    second: BattleCitySheet1_34
+  - first:
+      213: 3780293016816298509
+    second: BattleCitySheet1_35
+  - first:
+      213: 593287533188662740
+    second: BattleCitySheet1_36
+  - first:
+      213: -2501183589870010007
+    second: BattleCitySheet1_37
+  - first:
+      213: 5696969296855570634
+    second: BattleCitySheet1_38
+  - first:
+      213: -2231030303813233662
+    second: BattleCitySheet1_39
+  - first:
+      213: 7982359885530260044
+    second: BattleCitySheet1_40
+  - first:
+      213: -2145235738937341981
+    second: BattleCitySheet1_41
+  - first:
+      213: -3381471821657153983
+    second: BattleCitySheet1_42
+  - first:
+      213: -8515392357477390811
+    second: BattleCitySheet1_43
+  - first:
+      213: 3349601192253510944
+    second: BattleCitySheet1_44
+  - first:
+      213: -3307291724713070086
+    second: BattleCitySheet1_45
+  - first:
+      213: -6156482136798931103
+    second: BattleCitySheet1_46
+  - first:
+      213: -1978244199763339823
+    second: BattleCitySheet1_47
+  - first:
+      213: 734148698597859154
+    second: BattleCitySheet1_48
+  - first:
+      213: -6738000122870881581
+    second: BattleCitySheet1_49
+  - first:
+      213: -801802690356354794
+    second: BattleCitySheet1_50
+  - first:
+      213: -5175179157781705842
+    second: BattleCitySheet1_51
+  - first:
+      213: 6777092762703323459
+    second: BattleCitySheet1_52
+  - first:
+      213: -2494541561890584273
+    second: BattleCitySheet1_53
+  - first:
+      213: -6102217649054086485
+    second: BattleCitySheet1_54
+  - first:
+      213: -8464320452745887675
+    second: BattleCitySheet1_55
+  - first:
+      213: 4034584103718779598
+    second: BattleCitySheet1_56
+  - first:
+      213: -1034982035493854582
+    second: BattleCitySheet1_57
+  - first:
+      213: -382266172383449774
+    second: BattleCitySheet1_58
+  - first:
+      213: -6197827483030749524
+    second: BattleCitySheet1_59
+  - first:
+      213: 1018792213072522419
+    second: BattleCitySheet1_60
+  - first:
+      213: 7023135538961179788
+    second: BattleCitySheet1_61
+  - first:
+      213: -59102001052862552
+    second: BattleCitySheet1_62
+  - first:
+      213: -1069732304470371110
+    second: BattleCitySheet1_63
+  - first:
+      213: 8405423835781293446
+    second: BattleCitySheet1_64
+  - first:
+      213: -1046488385823221039
+    second: BattleCitySheet1_65
+  - first:
+      213: -7397857035372296056
+    second: BattleCitySheet1_66
+  - first:
+      213: -6003572554610586742
+    second: BattleCitySheet1_67
+  - first:
+      213: -4680016685584674715
+    second: BattleCitySheet1_68
+  - first:
+      213: -4464425445969094499
+    second: BattleCitySheet1_69
+  - first:
+      213: -2453527116426779596
+    second: BattleCitySheet1_70
+  - first:
+      213: -4158699303605994287
+    second: BattleCitySheet1_71
+  - first:
+      213: -8848664766650837586
+    second: BattleCitySheet1_72
+  - first:
+      213: -5773526615002558624
+    second: BattleCitySheet1_73
+  - first:
+      213: -4178034607448492180
+    second: BattleCitySheet1_74
+  - first:
+      213: 6565274804519233976
+    second: BattleCitySheet1_75
+  - first:
+      213: -5939858459566213527
+    second: BattleCitySheet1_76
+  - first:
+      213: -1949474546919163423
+    second: BattleCitySheet1_77
+  - first:
+      213: -2532332856402120349
+    second: BattleCitySheet1_78
+  - first:
+      213: -1385815940314866029
+    second: BattleCitySheet1_79
+  - first:
+      213: 6654017199050215586
+    second: BattleCitySheet1_80
+  - first:
+      213: -5570899527833495762
+    second: BattleCitySheet1_81
+  - first:
+      213: 988995104936982818
+    second: BattleCitySheet1_82
+  - first:
+      213: 3790757278654989307
+    second: BattleCitySheet1_83
+  - first:
+      213: 2451783601139246123
+    second: BattleCitySheet1_84
+  - first:
+      213: 4271299401489474196
+    second: BattleCitySheet1_85
+  - first:
+      213: -5228455997415744301
+    second: BattleCitySheet1_86
+  - first:
+      213: -4304219091227187682
+    second: BattleCitySheet1_87
+  - first:
+      213: -2913940795387052282
+    second: BattleCitySheet1_88
+  - first:
+      213: 2451389059430466602
+    second: BattleCitySheet1_89
+  - first:
+      213: -1839190649904456360
+    second: BattleCitySheet1_90
+  - first:
+      213: -1435975144684351389
+    second: BattleCitySheet1_91
+  - first:
+      213: -1870323528150791822
+    second: BattleCitySheet1_92
+  - first:
+      213: -5089436622415368322
+    second: BattleCitySheet1_93
+  - first:
+      213: 416093124636363684
+    second: BattleCitySheet1_94
+  - first:
+      213: -6000708624048341743
+    second: BattleCitySheet1_95
+  - first:
+      213: 1962268876137352739
+    second: BattleCitySheet1_96
+  - first:
+      213: 3475142422116482506
+    second: BattleCitySheet1_97
+  - first:
+      213: 8556186754936187231
+    second: BattleCitySheet1_98
+  - first:
+      213: 1125743315712257042
+    second: BattleCitySheet1_99
+  - first:
+      213: 6357326865925765345
+    second: BattleCitySheet1_100
+  - first:
+      213: -3163229559518418492
+    second: BattleCitySheet1_101
+  - first:
+      213: -1698700757100668979
+    second: BattleCitySheet1_102
+  - first:
+      213: -5942127824876406575
+    second: BattleCitySheet1_103
+  - first:
+      213: 7395834847467793184
+    second: BattleCitySheet1_104
+  - first:
+      213: 396379332678552956
+    second: BattleCitySheet1_105
+  - first:
+      213: 3341992477515484407
+    second: BattleCitySheet1_106
+  - first:
+      213: 7342860844224314298
+    second: BattleCitySheet1_107
+  - first:
+      213: -8790375033117484572
+    second: BattleCitySheet1_108
+  - first:
+      213: -5484314474388214396
+    second: BattleCitySheet1_109
+  - first:
+      213: 7350754510522977959
+    second: BattleCitySheet1_110
+  - first:
+      213: 5172603060095782455
+    second: BattleCitySheet1_111
+  - first:
+      213: -6109150122805061831
+    second: BattleCitySheet1_112
+  - first:
+      213: -2458423236784763590
+    second: BattleCitySheet1_113
+  - first:
+      213: -604053375595710448
+    second: BattleCitySheet1_114
+  - first:
+      213: 3773853416815060931
+    second: BattleCitySheet1_115
+  - first:
+      213: -508894139695624565
+    second: BattleCitySheet1_116
+  - first:
+      213: -1526423330398081642
+    second: BattleCitySheet1_117
+  - first:
+      213: 2022915793126375545
+    second: BattleCitySheet1_118
+  - first:
+      213: -808463198402081819
+    second: BattleCitySheet1_119
+  - first:
+      213: -700410065021599799
+    second: BattleCitySheet1_120
+  - first:
+      213: -4719527761895209507
+    second: BattleCitySheet1_121
+  - first:
+      213: 1751776371199848839
+    second: BattleCitySheet1_122
+  - first:
+      213: 8979424478796432927
+    second: BattleCitySheet1_123
+  - first:
+      213: -7410275516563755980
+    second: BattleCitySheet1_124
+  - first:
+      213: 6911793534729083725
+    second: BattleCitySheet1_125
+  - first:
+      213: -5844594826105587015
+    second: BattleCitySheet1_126
+  - first:
+      213: 8678379088111966453
+    second: BattleCitySheet1_127
+  - first:
+      213: -3388342346050642416
+    second: BattleCitySheet1_128
+  - first:
+      213: -430883795722876215
+    second: BattleCitySheet1_129
+  - first:
+      213: 1931261954851964647
+    second: BattleCitySheet1_130
+  - first:
+      213: -5920430495147778245
+    second: BattleCitySheet1_131
+  - first:
+      213: -6544597628433984286
+    second: BattleCitySheet1_132
+  - first:
+      213: -762992731509660780
+    second: BattleCitySheet1_133
+  - first:
+      213: -5020843906226683209
+    second: BattleCitySheet1_134
+  - first:
+      213: -6551656043122033342
+    second: BattleCitySheet1_135
+  - first:
+      213: -3327122071648067668
+    second: BattleCitySheet1_136
+  - first:
+      213: 2123869406490503673
+    second: BattleCitySheet1_137
+  - first:
+      213: 8001964966107104965
+    second: BattleCitySheet1_138
+  - first:
+      213: -1550295660714370955
+    second: BattleCitySheet1_139
+  - first:
+      213: -550735898877401088
+    second: BattleCitySheet1_140
+  - first:
+      213: 5528533800538400423
+    second: BattleCitySheet1_141
+  - first:
+      213: -6798672286226831166
+    second: BattleCitySheet1_142
+  - first:
+      213: 2053234323395054585
+    second: BattleCitySheet1_143
+  - first:
+      213: -5233100564952625297
+    second: BattleCitySheet1_144
+  - first:
+      213: -8167227248869173042
+    second: BattleCitySheet1_145
+  - first:
+      213: 5085473967505851407
+    second: BattleCitySheet1_146
+  - first:
+      213: 8560253133961687564
+    second: BattleCitySheet1_147
+  - first:
+      213: 2802359244413819627
+    second: BattleCitySheet1_148
+  - first:
+      213: 3941382311965251524
+    second: BattleCitySheet1_149
+  - first:
+      213: 745349467934026551
+    second: BattleCitySheet1_150
+  - first:
+      213: 7204618190207884224
+    second: BattleCitySheet1_151
+  - first:
+      213: 7907126075649146353
+    second: BattleCitySheet1_152
+  - first:
+      213: -5613345404293117819
+    second: BattleCitySheet1_153
+  - first:
+      213: -2923027036648481056
+    second: BattleCitySheet1_154
+  - first:
+      213: 4818537319482354364
+    second: BattleCitySheet1_155
+  - first:
+      213: 3951927757261247407
+    second: BattleCitySheet1_156
+  - first:
+      213: -142807171889184546
+    second: BattleCitySheet1_157
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleCitySheet1_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 354
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8e5a96e49bc48a0800000000000000
+      internalID: -6319472430676580129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 354
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78c8e86aa012a670800000000000000
+      internalID: 8548413366793193595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 355
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0ff8fb08418dd90800000000000000
+      internalID: -7072880671583113032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 355
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be82e5a7c0bc830800000000000000
+      internalID: 4092378406101510917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 347
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d654295f61522f0800000000000000
+      internalID: -998366498415874682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 347
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df5006a5ecb4b600800000000000000
+      internalID: 483218754554060761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 346
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fe7b51e6fbe9830800000000000000
+      internalID: 4079908791975931664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 346
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84bb4ec42b911e40800000000000000
+      internalID: 5625447991944656010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 337
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c97f82314a3ad30800000000000000
+      internalID: 4441574059716090958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 338
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2263e7dc89a943060800000000000000
+      internalID: 6932335707503343138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 338
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a928743b983034ed0800000000000000
+      internalID: -2431095483896724838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 339
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a705fcf320330e4e0800000000000000
+      internalID: -1954506153525292934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 332
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994c19b8f40520620800000000000000
+      internalID: 2738839825968907417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 333
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e84c7e92df432990800000000000000
+      internalID: -7411992795701032730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 332
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74301bd87c01eed0800000000000000
+      internalID: -2386612614318771074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 332
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3566ded140b2710800000000000000
+      internalID: 1669432613454369756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 319
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd871fc4cd276e320800000000000000
+      internalID: 2586881326480193755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6693b50ce23d1dd60800000000000000
+      internalID: 7913338218015832422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d8de68063251a0800000000000000
+      internalID: -6822331075665538398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7328d550bfb9ef00800000000000000
+      internalID: 1146658344217879419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 316
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3968b34e7acb3f1d0800000000000000
+      internalID: -3318101071167256941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 317
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c85939cc9cc79a0800000000000000
+      internalID: -6233885903701046160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 318
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401c89a88f6e9b4d0800000000000000
+      internalID: -3118207311825813244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 318
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026791a624b41e9b0800000000000000
+      internalID: -5052674558313007584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba87f4ab29089c40800000000000000
+      internalID: 5519171426398472880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d1d87ea4265ab60800000000000000
+      internalID: 7756714007067434375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_26
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3827ec20a2a8be0800000000000000
+      internalID: -1474319736468503567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aad92123756f00c0800000000000000
+      internalID: -4607352348624692573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 300
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b45d12dfcee1a80800000000000000
+      internalID: -8494091275235669211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 300
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da127d2f65f63080800000000000000
+      internalID: -9207902530259772712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_30
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 302
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02bc08e56b88fcb0800000000000000
+      internalID: -4829957330553753077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_31
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 302
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b45bcad0929720800000000000000
+      internalID: 2851500783467541461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_32
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ba2fa61e8b71ff0800000000000000
+      internalID: -65380391272142025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_33
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b769e6f51d827ca60800000000000000
+      internalID: 7694163368100140667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_34
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 280
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7102e2e133403d000800000000000000
+      internalID: 59395837682130967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_35
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 280
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aa93e487c467430800000000000000
+      internalID: 3780293016816298509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_36
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 284
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5c0693ed7cb3800800000000000000
+      internalID: 593287533188662740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_37
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 284
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96103cfd6c20a4dd0800000000000000
+      internalID: -2501183589870010007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_38
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 282
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac812634463bf0f40800000000000000
+      internalID: 5696969296855570634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_39
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 282
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204941a52c9c901e0800000000000000
+      internalID: -2231030303813233662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 262
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42eb56060a07ce60800000000000000
+      internalID: 7982359885530260044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7ca2d16779a32e0800000000000000
+      internalID: -2145235738937341981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ed1244b499211d0800000000000000
+      internalID: -3381471821657153983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_43
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526eb7174cf33d980800000000000000
+      internalID: -8515392357477390811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_44
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 268
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025de73998c2c7e20800000000000000
+      internalID: 3349601192253510944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_45
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 269
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af173ebf2b32a12d0800000000000000
+      internalID: -3307291724713070086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_46
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 268
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167df027d18cf8aa0800000000000000
+      internalID: -6156482136798931103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_47
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 268
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5112aa16ddb84e0800000000000000
+      internalID: -1978244199763339823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 242
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f9d380a58303a00800000000000000
+      internalID: 734148698597859154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d22eb37690dd72a0800000000000000
+      internalID: -6738000122870881581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_50
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6116b5583bc6fd4f0800000000000000
+      internalID: -801802690356354794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_51
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b8a6ba9f11e28b0800000000000000
+      internalID: -5175179157781705842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_52
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 252
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3416dca06f11d0e50800000000000000
+      internalID: 6777092762703323459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_53
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 253
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2940168aab916dd0800000000000000
+      internalID: -2494541561890584273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_54
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 254
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa030e0161905ba0800000000000000
+      internalID: -6102217649054086485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_55
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 254
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5400205e461b88a80800000000000000
+      internalID: -8464320452745887675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_56
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca789ebdd8bdf730800000000000000
+      internalID: 4034584103718779598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_57
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a826a71825103a1f0800000000000000
+      internalID: -1034982035493854582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_58
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25daf6901fae1baf0800000000000000
+      internalID: -382266172383449774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_59
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae7cceddb4ecf9a0800000000000000
+      internalID: -6197827483030749524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_60
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 237
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc2f18be1a732e00800000000000000
+      internalID: 1018792213072522419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_61
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 237
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84e3310090377160800000000000000
+      internalID: 7023135538961179788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_62
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 238
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7babd0b070e2ff0800000000000000
+      internalID: -59102001052862552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_63
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 238
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad49843032c8721f0800000000000000
+      internalID: -1069732304470371110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_64
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 198
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685685ed17016a470800000000000000
+      internalID: 8405423835781293446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_65
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 198
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da5f6d8b502a71f0800000000000000
+      internalID: -1046488385823221039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888828bc838855990800000000000000
+      internalID: -7397857035372296056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_67
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bc623e1960faca0800000000000000
+      internalID: -6003572554610586742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_68
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56013d8ce9d3d0fb0800000000000000
+      internalID: -4680016685584674715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_69
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d981cced5bc2b02c0800000000000000
+      internalID: -4464425445969094499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_70
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434e792461253fdd0800000000000000
+      internalID: -2453527116426779596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_71
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc76e064055946c0800000000000000
+      internalID: -4158699303605994287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_72
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea51347e64a333580800000000000000
+      internalID: -8848664766650837586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_73
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f4283122050efa0800000000000000
+      internalID: -5773526615002558624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_74
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 183
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c677eb329a3a406c0800000000000000
+      internalID: -4178034607448492180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_75
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 183
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e03086aa8c1b50800000000000000
+      internalID: 6565274804519233976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_76
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966f475a332619da0800000000000000
+      internalID: -5939858459566213527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_77
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9b7347a3312f4e0800000000000000
+      internalID: -1949474546919163423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_78
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361f9191fa85bdcd0800000000000000
+      internalID: -2532332856402120349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_79
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e5571aeb794cce0800000000000000
+      internalID: -1385815940314866029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_80
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a05ab65361d75c50800000000000000
+      internalID: 6654017199050215586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_81
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27d714356030b2b0800000000000000
+      internalID: -5570899527833495762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2297e5adecd99bd00800000000000000
+      internalID: 988995104936982818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_83
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 182
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf305ff19a97b9430800000000000000
+      internalID: 3790757278654989307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 166
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b246804f13c760220800000000000000
+      internalID: 2451783601139246123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_85
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 166
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4926e13ec24b64b30800000000000000
+      internalID: 4271299401489474196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_86
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc164ec8fac077b0800000000000000
+      internalID: -5228455997415744301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_87
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16e2ff8a875444c0800000000000000
+      internalID: -4304219091227187682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_88
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f7f6a094a9f87d0800000000000000
+      internalID: -2913940795387052282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_89
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24c1ad8c55150220800000000000000
+      internalID: 2451389059430466602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_90
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d993e29d1e976e0800000000000000
+      internalID: -1839190649904456360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_91
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3609ccac634621ce0800000000000000
+      internalID: -1435975144684351389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279448919a64b06e0800000000000000
+      internalID: -1870323528150791822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_93
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f611e5b50be59b0800000000000000
+      internalID: -5089436622415368322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_94
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 147
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abce670e7246c500800000000000000
+      internalID: 416093124636363684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_95
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 147
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11db9feac4339bca0800000000000000
+      internalID: -6000708624048341743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_96
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ec8f375216b3b10800000000000000
+      internalID: 1962268876137352739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_97
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdb42eee9f2a3030800000000000000
+      internalID: 3475142422116482506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_98
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59afdf558eadb670800000000000000
+      internalID: 8556186754936187231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_99
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cac49c4917f9f00800000000000000
+      internalID: 1125743315712257042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_100
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e87d8c1a13c93850800000000000000
+      internalID: 6357326865925765345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_101
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9a3e1a973f914d0800000000000000
+      internalID: -3163229559518418492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_102
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7d35959a00d68e0800000000000000
+      internalID: -1698700757100668979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_103
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 151
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8f64cd932598da0800000000000000
+      internalID: -5942127824876406575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_104
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 130
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02be5c4eb9843a660800000000000000
+      internalID: 7395834847467793184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_105
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 130
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d8c9827e8308500800000000000000
+      internalID: 396379332678552956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_106
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc8650a374216e20800000000000000
+      internalID: 3341992477515484407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_107
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb7d1f980517e560800000000000000
+      internalID: 7342860844224314298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_108
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9d1941b70520680800000000000000
+      internalID: -8790375033117484572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_109
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dae8dea0dc3e3b0800000000000000
+      internalID: -5484314474388214396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_110
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae82d60840230660800000000000000
+      internalID: 7350754510522977959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_111
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e8b19d317c8c740800000000000000
+      internalID: 5172603060095782455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_112
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9379baab450f73ba0800000000000000
+      internalID: -6109150122805061831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_113
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 126
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dc0e7671de1edd0800000000000000
+      internalID: -2458423236784763590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_114
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 113
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018fd32c7a8fd97f0800000000000000
+      internalID: -604053375595710448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 113
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7e7a710bb6f5430800000000000000
+      internalID: 3773853416815060931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_116
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0a27e97b00f8f0800000000000000
+      internalID: -508894139695624565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_117
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69de0ce711e01dae0800000000000000
+      internalID: -1526423330398081642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_118
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97043db2237d21c10800000000000000
+      internalID: 2022915793126375545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_119
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb84452103c7c4f0800000000000000
+      internalID: -808463198402081819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_120
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf774db1c4a746f0800000000000000
+      internalID: -700410065021599799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_121
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd544a4718ed08eb0800000000000000
+      internalID: -4719527761895209507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_122
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7813a4b045f8f4810800000000000000
+      internalID: 1751776371199848839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_123
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16cb1a0df25d9c70800000000000000
+      internalID: 8979424478796432927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_124
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c6173dda9692990800000000000000
+      internalID: -7410275516563755980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_125
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b5e5e799f9bef50800000000000000
+      internalID: 6911793534729083725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_126
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf3edb8f3d3eea0800000000000000
+      internalID: -5844594826105587015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_127
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f89715fccbcf6870800000000000000
+      internalID: 8678379088111966453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_128
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01edc36a6903af0d0800000000000000
+      internalID: -3388342346050642416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_129
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca47708871350af0800000000000000
+      internalID: -430883795722876215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_130
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e68d2304883dca10800000000000000
+      internalID: 1931261954851964647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_131
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f935b15d766dda0800000000000000
+      internalID: -5920430495147778245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_132
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e41457b12bec25a0800000000000000
+      internalID: -6544597628433984286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_133
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 97
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4936928372e4965f0800000000000000
+      internalID: -762992731509660780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_134
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 79
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28ca0a111625ab0800000000000000
+      internalID: -5020843906226683209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_135
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 79
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d7b2b7a87d315a0800000000000000
+      internalID: -6551656043122033342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_136
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf1e0b8a10b3d1d0800000000000000
+      internalID: -3327122071648067668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_137
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9af23f8ff797d10800000000000000
+      internalID: 2123869406490503673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_138
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c64fed8db0bc0f60800000000000000
+      internalID: 8001964966107104965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_139
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5785a467f4e3c7ae0800000000000000
+      internalID: -1550295660714370955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_140
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0086b5e2e946b58f0800000000000000
+      internalID: -550735898877401088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_141
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6e4dd333c49bc40800000000000000
+      internalID: 5528533800538400423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_142
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8282b939346a1a0800000000000000
+      internalID: -6798672286226831166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_143
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb0a961dbd8e7c10800000000000000
+      internalID: 2053234323395054585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_144
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 60
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f4a1823ca4067b0800000000000000
+      internalID: -5233100564952625297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_145
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 60
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec81347c61e28ae80800000000000000
+      internalID: -8167227248869173042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_146
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04cea321ab339640800000000000000
+      internalID: 5085473967505851407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_147
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 25
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f5350fd02cc670800000000000000
+      internalID: 8560253133961687564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_148
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 51
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea5150a2eaf3e620800000000000000
+      internalID: 2802359244413819627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_149
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c752b4945a92b630800000000000000
+      internalID: 3941382311965251524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_150
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bebbd5463085a00800000000000000
+      internalID: 745349467934026551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_151
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 25
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb98a18212fbf360800000000000000
+      internalID: 7204618190207884224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_152
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 25
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdbb45a541cbbd60800000000000000
+      internalID: 7907126075649146353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_153
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588898778146912b0800000000000000
+      internalID: -5613345404293117819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_154
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee54b3a5625f67d0800000000000000
+      internalID: -2923027036648481056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_155
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba65b09922eed240800000000000000
+      internalID: 4818537319482354364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_156
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa310956b5118d630800000000000000
+      internalID: 3951927757261247407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCitySheet1_157
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0ca2042a5a40ef0800000000000000
+      internalID: -142807171889184546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
