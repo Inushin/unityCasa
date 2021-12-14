@@ -18,9 +18,11 @@ public class Server : MonoBehaviour
     public GameObject[] jugadoresSimulados;
     public List<NetworkObject.NetworkPlayer> jugadores;
     public bool juegoEmpezado = false;
-    public float velocidadPala;
+    public static float velocidadPala;
     public GameObject pelota;
     public int[] goles;
+    private int vueltas = 0;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -136,51 +138,43 @@ public class Server : MonoBehaviour
                         SendToClient(JsonUtility.ToJson(readyMsg), m_connections[i]);
                     }
                 }
+                else
+                {
+                    Debug.Log("ESPERANDO AL OTRO JUGADOR");
+                }
                 break;
             case Commands.PLAYERINPUT:
+
+
+
                 PlayerInputMsg playerInputMsg = JsonUtility.FromJson<PlayerInputMsg>(recMsg);
-                if(!juegoEmpezado && playerInputMsg.myInput == "EMPEZAR")
+           
+                if (!juegoEmpezado && playerInputMsg.myInput == "EMPEZAR")
                 {
                     int tamArray = jugadores.Count;
+                    vueltas = 0;
                     for (int i = 0; i < tamArray; i++)
                     {
-                        // jugadoresSimulados[i].GetComponentInChildren<Text>().text = jugadores[i].nombre;
                         SendToClient(JsonUtility.ToJson(playerInputMsg), m_connections[i]);
                     }
                     juegoEmpezado = true;
+                    velocidadPala = 10;
                     Debug.Log("¡Empezar!");
-                } else if (juegoEmpezado && playerInputMsg.myInput == "DERECHA")
-                {
-                    int indiceJugador = -1;
-                    int.TryParse(playerInputMsg.id, out indiceJugador);
-                    jugadoresSimulados[indiceJugador].transform.Translate(Vector3.right * velocidadPala * Time.deltaTime);
-                    int cantidadJugadores = jugadores.Count;
-                    MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
-                    moverTanqueMsg.jugador.id = playerInputMsg.id;
-                    moverTanqueMsg.jugador.posJugador = jugadoresSimulados[indiceJugador].transform.position;
-                    for (int i = 0; i < cantidadJugadores; i++)
-                    {
-                        SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
-                    }
+                 
+
                 }
-                else if (juegoEmpezado && playerInputMsg.myInput == "IZQUIERDA")
+                else if (juegoEmpezado && playerInputMsg.myInput == "DERECHA")
                 {
                     int indiceJugador = -1;
                     int.TryParse(playerInputMsg.id, out indiceJugador);
-                    jugadoresSimulados[indiceJugador].transform.Translate(Vector3.left * velocidadPala * Time.deltaTime);
-                    int cantidadJugadores = jugadores.Count;
-                    MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
-                    moverTanqueMsg.jugador.id = playerInputMsg.id;
-                    moverTanqueMsg.jugador.posJugador = jugadoresSimulados[indiceJugador].transform.position;
-                    for (int i = 0; i < cantidadJugadores; i++)
+                   
+                    if (vueltas == 0)
                     {
-                        SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
+                        jugadoresSimulados[indiceJugador].transform.Rotate(0f, 0.0f, -90.0f, Space.World);
+                        vueltas = 1;
                     }
-                }
-                else if (juegoEmpezado && playerInputMsg.myInput == "ARRIBA")
-                {
-                    int indiceJugador = -1;
-                    int.TryParse(playerInputMsg.id, out indiceJugador);
+                                     
+                   Debug.Log(jugadoresSimulados[indiceJugador].transform.rotation);
                     jugadoresSimulados[indiceJugador].transform.Translate(Vector3.up * velocidadPala * Time.deltaTime);
                     int cantidadJugadores = jugadores.Count;
                     MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
@@ -190,6 +184,43 @@ public class Server : MonoBehaviour
                     {
                         SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
                     }
+                    Debug.Log("DERECHA");
+                }
+                else if (juegoEmpezado && playerInputMsg.myInput == "IZQUIERDA")
+                {
+                    int indiceJugador = -1;
+                    int.TryParse(playerInputMsg.id, out indiceJugador);
+                    if (vueltas == 0)
+                    {
+                        jugadoresSimulados[indiceJugador].transform.Rotate(0f, 0.0f, 90.0f, Space.World);
+                        vueltas = 1;
+                    }             
+                    jugadoresSimulados[indiceJugador].transform.Translate(Vector3.up * velocidadPala * Time.deltaTime);
+                    int cantidadJugadores = jugadores.Count;
+                    MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
+                    moverTanqueMsg.jugador.id = playerInputMsg.id;
+                    moverTanqueMsg.jugador.posJugador = jugadoresSimulados[indiceJugador].transform.position;
+                    for (int i = 0; i < cantidadJugadores; i++)
+                    {
+                        SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
+                    }
+                    Debug.Log("IZQUIERDA");
+                }
+                else if (juegoEmpezado && playerInputMsg.myInput == "ARRIBA")
+                {
+                    int indiceJugador = -1;
+                    int.TryParse(playerInputMsg.id, out indiceJugador);
+                    vueltas = 0;
+                    jugadoresSimulados[indiceJugador].transform.Translate(Vector3.up * velocidadPala * Time.deltaTime);
+                    int cantidadJugadores = jugadores.Count;
+                    MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
+                    moverTanqueMsg.jugador.id = playerInputMsg.id;
+                    moverTanqueMsg.jugador.posJugador = jugadoresSimulados[indiceJugador].transform.position;
+                    for (int i = 0; i < cantidadJugadores; i++)
+                    {
+                        SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
+                    }
+                    Debug.Log("ARRIBA");
                 }
                 else if (juegoEmpezado && playerInputMsg.myInput == "ABAJO")
                 {
@@ -204,6 +235,8 @@ public class Server : MonoBehaviour
                     {
                         SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
                     }
+
+                    Debug.Log("ABAJO");
                 }
                 break;
             default:
