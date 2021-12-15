@@ -17,6 +17,7 @@ namespace NetworkObject {
     public class NetworkPlayer:NetworkObject
     {
         public Vector3 posJugador;
+        public Quaternion rotacionJugador;
         public string nombre;
     }
 }
@@ -28,6 +29,7 @@ namespace NetworkMessages
         READY,
         PLAYERINPUT,
         MOVER_TANQUE,
+        DISPARAR,
         UPDATE_PELOTA,
         EXPLOTAR,
         GOL
@@ -86,7 +88,19 @@ namespace NetworkMessages
         }
         
     }
+    
+    [System.Serializable]
+    public class DispararTanqueMsg : NetworkHeader
+    {
+        public Vector3 posCanon;
+        public DispararTanqueMsg()
+        {
+            command = Commands.DISPARAR;
+            posCanon = Vector3.zero;
+        }
 
+    }
+    
     [System.Serializable]
     public class UpdatePelotaMsg : NetworkHeader
     {

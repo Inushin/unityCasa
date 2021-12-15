@@ -25,7 +25,7 @@ public class NetworkClient : MonoBehaviour
     public string idPlayer;
     public GameObject panelPrincipal, panelJuego;
     public GameObject[] jugadoresGameObject;
-    public GameObject pelota;
+    public GameObject proyectil;
     public GameObject explotar;
     
 
@@ -79,30 +79,41 @@ public class NetworkClient : MonoBehaviour
             playerInputMsg.id = idPlayer;
             playerInputMsg.myInput = "EMPEZAR";
             SendToServer(JsonUtility.ToJson(playerInputMsg));
-        } else if(Input.GetKey(KeyCode.UpArrow))
+        }
+        if(Input.GetKey(KeyCode.UpArrow))
         {
             PlayerInputMsg playerInputMsg = new PlayerInputMsg();
             playerInputMsg.id = idPlayer;
             playerInputMsg.myInput = "ARRIBA";
             SendToServer(JsonUtility.ToJson(playerInputMsg));
-        } else if (Input.GetKey(KeyCode.DownArrow))
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             PlayerInputMsg playerInputMsg = new PlayerInputMsg();
             playerInputMsg.id = idPlayer;
             playerInputMsg.myInput = "ABAJO";
             SendToServer(JsonUtility.ToJson(playerInputMsg));
-        }else if (Input.GetKey(KeyCode.RightArrow))
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             PlayerInputMsg playerInputMsg = new PlayerInputMsg();
             playerInputMsg.id = idPlayer;
             playerInputMsg.myInput = "DERECHA";
             SendToServer(JsonUtility.ToJson(playerInputMsg));
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             PlayerInputMsg playerInputMsg = new PlayerInputMsg();
             playerInputMsg.id = idPlayer;
             playerInputMsg.myInput = "IZQUIERDA";
+            SendToServer(JsonUtility.ToJson(playerInputMsg));
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            PlayerInputMsg playerInputMsg = new PlayerInputMsg();
+            playerInputMsg.id = idPlayer;
+            playerInputMsg.myInput = "DISPARAR";
             SendToServer(JsonUtility.ToJson(playerInputMsg));
         }
     }
@@ -151,6 +162,14 @@ public class NetworkClient : MonoBehaviour
                 int idJugador;
                 int.TryParse(moverTanqueMsg.jugador.id, out idJugador);
                 jugadoresGameObject[idJugador].transform.position = moverTanqueMsg.jugador.posJugador;
+                jugadoresGameObject[idJugador].transform.rotation = moverTanqueMsg.jugador.rotacionJugador;
+                break;
+            case Commands.DISPARAR:
+                DispararTanqueMsg dispararTanqueMsg = JsonUtility.FromJson<DispararTanqueMsg>(recMsg);
+                proyectil.transform.position = dispararTanqueMsg.posCanon;
+                proyectil.SetActive(true);
+                Debug.Log(proyectil.transform.position + "DISPARADO");
+                SendToServer(JsonUtility.ToJson(dispararTanqueMsg));
                 break;
             default:
                 Debug.Log("Mensaje desconocido");

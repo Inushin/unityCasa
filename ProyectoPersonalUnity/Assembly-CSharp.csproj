@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\NetworkMessages.cs" />
     <Compile Include="Assets\Scripts\Server.cs" />
     <Compile Include="Assets\Scripts\NetworkClient.cs" />
-    <Compile Include="Assets\Scripts\NetworkMessages.cs" />
+    <Compile Include="Assets\Scripts\Proyectil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -280,26 +281,26 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.1.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.5.5\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.1.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.5.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.5.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.5.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.5.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.5.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -688,25 +689,25 @@
       <Project>{71035119-40D8-D553-D43F-063A3AAED973}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{63815C63-6A56-8E54-190F-7DF91F22D825}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Editor.csproj">
       <Project>{5F2A2CB6-F7D2-143F-67EF-9745F2C654AC}</Project>
       <Name>Unity.2D.IK.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{DFF82187-12D7-0ADB-4C34-9962B5020011}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
-      <Project>{E0707F3C-80EF-C9E8-901F-0C70C9BC0694}</Project>
-      <Name>Unity.2D.Psdimporter.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Path.Editor.csproj">
       <Project>{1E4EB9DC-7A73-11E9-DA34-71D146CA8729}</Project>
       <Name>Unity.2D.Path.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{6A240AB2-8C30-AF66-1667-3BD75EA5F683}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
+      <Project>{E0707F3C-80EF-C9E8-901F-0C70C9BC0694}</Project>
+      <Name>Unity.2D.Psdimporter.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Networking.Editor.csproj">
+      <Project>{619287D7-A373-1EA5-7E1F-3DDA074AD04E}</Project>
+      <Name>Unity.Networking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{C6F86602-97B4-82D1-58C6-E05034CBCBF1}</Project>
@@ -720,9 +721,21 @@
       <Project>{E420758D-B5DE-4534-5108-89B38997E1BC}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{6A240AB2-8C30-AF66-1667-3BD75EA5F683}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{29394784-6D91-B1BF-7781-869A8BA449C5}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{DFF82187-12D7-0ADB-4C34-9962B5020011}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Networking.Transport.csproj">
+      <Project>{32555F33-7076-512A-4C1F-94685C915079}</Project>
+      <Name>Unity.Networking.Transport</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{E7ED08A9-AF10-0837-DBC7-A6B633C67364}</Project>
@@ -731,6 +744,10 @@
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
       <Project>{988E96D6-926F-68BC-A875-A55E101D9DC0}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{7F4BAADE-E7D2-FB6E-89D4-F3E09B095158}</Project>
+      <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{69BDB072-DDDD-70C6-0120-15639C34FB12}</Project>
@@ -760,6 +777,10 @@
       <Project>{138C92A5-1295-1E33-A9F4-E3DC22A59F93}</Project>
       <Name>Unity.2D.SpriteShape.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Collections.csproj">
+      <Project>{509E951C-80BE-CAE1-00B0-09FFC06269F2}</Project>
+      <Name>Unity.Collections</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
       <Project>{8F86DFA0-6C7D-B54E-2BD8-6BC50B2FC6C2}</Project>
       <Name>Unity.2D.Common.Editor</Name>
@@ -767,26 +788,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{4493BE45-F9FD-F363-7FCB-6BE219023A6E}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Networking.Editor.csproj">
-      <Project>{619287D7-A373-1EA5-7E1F-3DDA074AD04E}</Project>
-      <Name>Unity.Networking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{509E951C-80BE-CAE1-00B0-09FFC06269F2}</Project>
-      <Name>Unity.Collections</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{7F4BAADE-E7D2-FB6E-89D4-F3E09B095158}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Networking.Transport.csproj">
-      <Project>{32555F33-7076-512A-4C1F-94685C915079}</Project>
-      <Name>Unity.Networking.Transport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{63815C63-6A56-8E54-190F-7DF91F22D825}</Project>
-      <Name>Unity.Burst.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
