@@ -25,8 +25,7 @@ public class NetworkClient : MonoBehaviour
     public string idPlayer;
     public GameObject panelPrincipal, panelJuego;
     public GameObject[] jugadoresGameObject;
-    public GameObject proyectil;
-    public GameObject explotar;
+    public GameObject disparoFlash;
     
 
     // Start is called before the first frame update
@@ -39,7 +38,7 @@ public class NetworkClient : MonoBehaviour
 
         inputNombre.gameObject.SetActive(false);
         GameObject.Find("Button").SetActive(false);
-        GameObject.Find("Text").GetComponent<Text>().text = "Esperando";
+        //GameObject.Find("Text").GetComponent<Text>().text = "Esperando";
         empezar = true;
 
     }
@@ -147,7 +146,7 @@ public class NetworkClient : MonoBehaviour
                 panelJuego.SetActive(true);
                 for(int i = 0; i < numPlayers; i++)
                 {
-                    jugadoresGameObject[i].GetComponentInChildren<Text>().text = readyMsg.playerList[i].nombre;
+                  //  jugadoresGameObject[i].GetComponentInChildren<Text>().text = readyMsg.playerList[i].nombre;
                 }
                 break;
             case Commands.PLAYERINPUT:
@@ -166,10 +165,11 @@ public class NetworkClient : MonoBehaviour
                 break;
             case Commands.DISPARAR:
                 DispararTanqueMsg dispararTanqueMsg = JsonUtility.FromJson<DispararTanqueMsg>(recMsg);
-                proyectil.transform.position = dispararTanqueMsg.posCanon;
-                proyectil.SetActive(true);
-                Debug.Log(proyectil.transform.position + "DISPARADO");
-                SendToServer(JsonUtility.ToJson(dispararTanqueMsg));
+                disparoFlash.transform.position = dispararTanqueMsg.posCanon;
+                //disparoFlash.SetActive(true);
+                GameObject.Find("PosProyectil").GetComponent<Proyectil>().CrearProyectiles(dispararTanqueMsg.posCanon);
+                Debug.Log(disparoFlash.transform.position + "DISPARADO");
+                //SendToServer(JsonUtility.ToJson(dispararTanqueMsg));
                 break;
             default:
                 Debug.Log("Mensaje desconocido");

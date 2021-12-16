@@ -54,9 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\NetworkMessages.cs" />
+    <Compile Include="Assets\Scripts\Proyectil.cs" />
     <Compile Include="Assets\Scripts\Server.cs" />
     <Compile Include="Assets\Scripts\NetworkClient.cs" />
-    <Compile Include="Assets\Scripts\Proyectil.cs" />
+    <Compile Include="Assets\Scripts\MoverProyectil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

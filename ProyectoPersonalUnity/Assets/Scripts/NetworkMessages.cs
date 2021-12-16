@@ -92,11 +92,14 @@ namespace NetworkMessages
     [System.Serializable]
     public class DispararTanqueMsg : NetworkHeader
     {
+        public NetworkObject.NetworkPlayer jugador;
         public Vector3 posCanon;
         public DispararTanqueMsg()
         {
+           jugador = new NetworkObject.NetworkPlayer();
+            posCanon = jugador.posJugador;
             command = Commands.DISPARAR;
-            posCanon = Vector3.zero;
+            
         }
 
     }

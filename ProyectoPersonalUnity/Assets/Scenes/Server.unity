@@ -1572,7 +1572,8 @@ MonoBehaviour:
   - {fileID: 232587134}
   jugadores: []
   juegoEmpezado: 0
-  DisparoFlash: {fileID: 1480302834}
+  disparo: {fileID: 1313972785}
+  disparoFlash: {fileID: 1480302834}
   goles: 
 --- !u!4 &1799443033
 Transform:

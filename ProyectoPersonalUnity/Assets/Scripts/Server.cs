@@ -19,7 +19,8 @@ public class Server : MonoBehaviour
     public List<NetworkObject.NetworkPlayer> jugadores;
     public bool juegoEmpezado = false;
     public static float velocidadPala;
-    public GameObject DisparoFlash;
+    public GameObject disparo;
+    public GameObject disparoFlash;
     public int[] goles;
     private int vueltas = 0;
   
@@ -145,7 +146,7 @@ public class Server : MonoBehaviour
                 break;
             case Commands.PLAYERINPUT:
                 PlayerInputMsg playerInputMsg = JsonUtility.FromJson<PlayerInputMsg>(recMsg);
-                DisparoFlash.SetActive(false);
+                disparoFlash.SetActive(false);
                 if (!juegoEmpezado && playerInputMsg.myInput == "EMPEZAR")
                 {
                     int tamArray = jugadores.Count;
@@ -247,17 +248,21 @@ public class Server : MonoBehaviour
                     int indiceJugador = -1;
                     int.TryParse(playerInputMsg.id, out indiceJugador);
                     int cantidadJugadores = jugadores.Count;
+                    //disparo = GameObject.Find("DisparoFlash");
                     MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
+                    DispararTanqueMsg dispararTanqueMsg = new DispararTanqueMsg();
                     moverTanqueMsg.jugador.id = playerInputMsg.id;
                     moverTanqueMsg.jugador.posJugador = jugadoresSimulados[indiceJugador].transform.position;
                     moverTanqueMsg.jugador.rotacionJugador = jugadoresSimulados[indiceJugador].transform.rotation;
+                    dispararTanqueMsg.posCanon = jugadoresSimulados[indiceJugador].transform.GetChild(0).GetChild(0).position;
 
-                    DisparoFlash.SetActive(true);
+                    disparoFlash.SetActive(true);
                     Debug.Log("PU-PUM");
 
                     for (int i = 0; i < cantidadJugadores; i++)
                     {
                         SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
+                        SendToClient(JsonUtility.ToJson(dispararTanqueMsg), m_connections[i]);
                     }
 
 
@@ -269,7 +274,7 @@ public class Server : MonoBehaviour
                 break;
         }
     }
-
+    /*
     public void EnviarPosProyectil(Vector3 pos)
     {
         DispararTanqueMsg dispararTanqueMsg = new DispararTanqueMsg();
@@ -280,6 +285,7 @@ public class Server : MonoBehaviour
             SendToClient(JsonUtility.ToJson(dispararTanqueMsg), m_connections[i]);
         }
     }
+    */
 
     private void OnDisconnect(int i)
     {
