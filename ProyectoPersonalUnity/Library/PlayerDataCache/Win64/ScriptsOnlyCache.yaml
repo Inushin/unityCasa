@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -405,7 +404,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 7f8eae738e2593ad2769665e3307dd26
+      Hash: 8dac597b01da7f6ef0a1d47ee2af3420
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoverProyectil

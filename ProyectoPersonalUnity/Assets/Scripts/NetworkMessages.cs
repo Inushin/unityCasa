@@ -29,10 +29,7 @@ namespace NetworkMessages
         READY,
         PLAYERINPUT,
         MOVER_TANQUE,
-        DISPARAR,
-        UPDATE_PELOTA,
-        EXPLOTAR,
-        GOL
+        DISPARAR
     }
 
     [System.Serializable]
@@ -97,44 +94,8 @@ namespace NetworkMessages
         public DispararTanqueMsg()
         {
            jugador = new NetworkObject.NetworkPlayer();
-            posCanon = jugador.posJugador;
-            command = Commands.DISPARAR;
-            
-        }
-
-    }
-    
-    [System.Serializable]
-    public class UpdatePelotaMsg : NetworkHeader
-    {
-        public Vector3 posPelota;
-        public UpdatePelotaMsg()
-        {
-           command = Commands.UPDATE_PELOTA;
-            posPelota = Vector3.zero;
-        }
-
-    }
-
-    [System.Serializable]
-    public class ExplotarPelotaMsg : NetworkHeader
-    {
-        public Vector3 posPelota;
-        public ExplotarPelotaMsg()
-        {
-            command = Commands.EXPLOTAR;
-            posPelota = Vector3.zero;
-        }
-
-    }
-
-    [System.Serializable]
-    public class ActualizarMarcadoresMsg : NetworkHeader
-    {
-        public int[] goles;
-        public ActualizarMarcadoresMsg()
-        {
-            command = Commands.GOL;
+           posCanon = jugador.posJugador;
+           command = Commands.DISPARAR;
             
         }
 

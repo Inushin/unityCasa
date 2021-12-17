@@ -105,7 +105,7 @@ public class Server : MonoBehaviour
         DataStreamWriter writer;
         m_Driver.BeginSend(NetworkPipeline.Null, c, out writer);
         NativeArray<byte> bytes = new
-            NativeArray<byte>(Encoding.ASCII.GetBytes(message), Allocator.Temp);
+        NativeArray<byte>(Encoding.ASCII.GetBytes(message), Allocator.Temp);
         writer.WriteBytes(bytes);
         m_Driver.EndSend(writer);
     }
@@ -158,12 +158,10 @@ public class Server : MonoBehaviour
                     juegoEmpezado = true;
                     velocidadPala = 10;
                     Debug.Log("¡Empezar!");
-                 
 
                 }
                 else if (juegoEmpezado && playerInputMsg.myInput == "DERECHA")
                 {
-
                     int indiceJugador = -1;
                     int.TryParse(playerInputMsg.id, out indiceJugador);
                     Debug.Log(jugadoresSimulados[indiceJugador].transform.rotation + " ANTES DEL GIRO");
@@ -171,8 +169,7 @@ public class Server : MonoBehaviour
                     //  {
                     jugadoresSimulados[indiceJugador].transform.Rotate(0f, 0.0f, -90.0f, Space.Self);
                         vueltas = 1;
-                    //}
-                                     
+                    //}               
                    
                     jugadoresSimulados[indiceJugador].transform.Translate(Vector3.up * velocidadPala * Time.deltaTime);
                     int cantidadJugadores = jugadores.Count;
@@ -239,7 +236,6 @@ public class Server : MonoBehaviour
                     {
                         SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
                     }
-
                     Debug.Log("ABAJO");
                 }
 
@@ -255,7 +251,6 @@ public class Server : MonoBehaviour
                     moverTanqueMsg.jugador.posJugador = jugadoresSimulados[indiceJugador].transform.position;
                     moverTanqueMsg.jugador.rotacionJugador = jugadoresSimulados[indiceJugador].transform.rotation;
                     dispararTanqueMsg.posCanon = jugadoresSimulados[indiceJugador].transform.GetChild(0).GetChild(0).position;
-
                     disparoFlash.SetActive(true);
                     Debug.Log("PU-PUM");
 
@@ -264,10 +259,7 @@ public class Server : MonoBehaviour
                         SendToClient(JsonUtility.ToJson(moverTanqueMsg), m_connections[i]);
                         SendToClient(JsonUtility.ToJson(dispararTanqueMsg), m_connections[i]);
                     }
-
-
                 }
-
                 break;
             default:
                 Debug.Log("Mensaje desconocido");
@@ -289,7 +281,7 @@ public class Server : MonoBehaviour
 
     private void OnDisconnect(int i)
     {
-            m_connections[i] = default(NetworkConnection);
+        m_connections[i] = default(NetworkConnection);
     }
 
     public void OnDestroy()
@@ -297,6 +289,4 @@ public class Server : MonoBehaviour
         m_connections.Dispose();
         m_Driver.Dispose();
     }
-
-
 }
