@@ -71,8 +71,9 @@ public class NetworkClient : MonoBehaviour
             }
             cmd = m_Connection.PopEvent(m_Driver, out stream);
         }
-
-        if(Input.GetKey(KeyCode.E))
+       // GameObject.Find("Jugador1").GetComponent<Animator>().SetInteger("velocidad", 0);
+        //miAnimator.SetInteger("velocidad", 0);
+        if (Input.GetKey(KeyCode.E))
         {
             PlayerInputMsg playerInputMsg = new PlayerInputMsg();
             playerInputMsg.id = idPlayer;
@@ -160,14 +161,32 @@ public class NetworkClient : MonoBehaviour
                 MoverTanqueMsg moverTanqueMsg = JsonUtility.FromJson<MoverTanqueMsg>(recMsg);
                 int idJugador;
                 int.TryParse(moverTanqueMsg.jugador.id, out idJugador);
+                GameObject.Find("Jugador1").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", false);
+                GameObject.Find("Jugador2").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", false);
+                GameObject.Find("Jugador1").GetComponent<Animator>().SetInteger("velocidad", 1);
                 jugadoresGameObject[idJugador].transform.position = moverTanqueMsg.jugador.posJugador;
                 jugadoresGameObject[idJugador].transform.rotation = moverTanqueMsg.jugador.rotacionJugador;
                 break;
             case Commands.DISPARAR:
                 DispararTanqueMsg dispararTanqueMsg = JsonUtility.FromJson<DispararTanqueMsg>(recMsg);
-                disparoFlash.transform.position = dispararTanqueMsg.posCanon;
+             //   int idJugador;
+                int.TryParse(dispararTanqueMsg.jugador.id, out idJugador);
+               // disparoFlash.transform.position = dispararTanqueMsg.posCanon;
+                Debug.Log(dispararTanqueMsg.jugador.id);
                 //disparoFlash.SetActive(true);
-                GameObject.Find("PosProyectil").GetComponent<Proyectil>().CrearProyectiles(dispararTanqueMsg.posCanon);
+                if (dispararTanqueMsg.jugador.id == "0")
+                {
+                    Debug.Log("JUGADOR 1");
+                    Debug.Log(dispararTanqueMsg.jugador.id);
+                    GameObject.Find("Jugador1").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", true);
+                    GameObject.Find("PosProyectil").GetComponent<Proyectil>().CrearProyectiles(dispararTanqueMsg.posCanon);
+                }
+                if (dispararTanqueMsg.jugador.id=="1")
+                {
+                    Debug.Log("JUGADOR 2");
+                    GameObject.Find("Jugador2").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", true);
+                    GameObject.Find("PosProyectil2").GetComponent<Proyectil2>().CrearProyectiles(dispararTanqueMsg.posCanon);
+                }
                 Debug.Log(disparoFlash.transform.position + "DISPARADO");
                 //SendToServer(JsonUtility.ToJson(dispararTanqueMsg));
                 break;
@@ -198,5 +217,6 @@ public class NetworkClient : MonoBehaviour
         m_Connection.Disconnect(m_Driver);
         m_Driver.Dispose();
     }
+    
 
 }

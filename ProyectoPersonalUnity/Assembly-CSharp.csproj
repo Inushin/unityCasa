@@ -54,10 +54,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\NetworkMessages.cs" />
+    <Compile Include="Assets\Scripts\MoverProyectil.cs" />
     <Compile Include="Assets\Scripts\Proyectil.cs" />
     <Compile Include="Assets\Scripts\Server.cs" />
     <Compile Include="Assets\Scripts\NetworkClient.cs" />
-    <Compile Include="Assets\Scripts\MoverProyectil.cs" />
+    <Compile Include="Assets\Scripts\Proyectil2.cs" />
+    <Compile Include="Assets\Scripts\MoverProyectil2.cs" />
+    <Compile Include="Assets\Scripts\FinDisparo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

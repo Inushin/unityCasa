@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Proyectil
   - DisparoFlash
+  - Muro
+  - Jugador1
+  - Jugador2
+  - Enemigo
   layers:
   - Default
   - TransparentFX

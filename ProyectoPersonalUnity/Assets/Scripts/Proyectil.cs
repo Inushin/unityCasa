@@ -22,6 +22,7 @@ public class Proyectil : MonoBehaviour
     public void CrearProyectiles(Vector3 pos)
     {
         GameObject proyectilesColocar = listaProyectiles[0];
+        proyectilesColocar.transform.localRotation = GameObject.Find("Disparo1").transform.rotation;
         listaProyectiles.RemoveAt(0);
         proyectilesColocar.transform.position = pos;
         proyectilesColocar.SetActive(true);

@@ -147,6 +147,7 @@ public class Server : MonoBehaviour
             case Commands.PLAYERINPUT:
                 PlayerInputMsg playerInputMsg = JsonUtility.FromJson<PlayerInputMsg>(recMsg);
                 disparoFlash.SetActive(false);
+                velocidadPala = 0;
                 if (!juegoEmpezado && playerInputMsg.myInput == "EMPEZAR")
                 {
                     int tamArray = jugadores.Count;
@@ -156,7 +157,7 @@ public class Server : MonoBehaviour
                         SendToClient(JsonUtility.ToJson(playerInputMsg), m_connections[i]);
                     }
                     juegoEmpezado = true;
-                    velocidadPala = 10;
+                    
                     Debug.Log("¡Empezar!");
 
                 }
@@ -164,6 +165,7 @@ public class Server : MonoBehaviour
                 {
                     int indiceJugador = -1;
                     int.TryParse(playerInputMsg.id, out indiceJugador);
+                    velocidadPala = 5;
                     Debug.Log(jugadoresSimulados[indiceJugador].transform.rotation + " ANTES DEL GIRO");
                     //if (vueltas == 0)
                     //  {
@@ -192,7 +194,8 @@ public class Server : MonoBehaviour
                    // {
                         jugadoresSimulados[indiceJugador].transform.Rotate(0f, 0.0f, 90.0f, Space.Self);
                         vueltas = 1;
-                  //  }             
+                    velocidadPala = 5;
+                    //  }             
                     jugadoresSimulados[indiceJugador].transform.Translate(Vector3.up * velocidadPala * Time.deltaTime);
                     int cantidadJugadores = jugadores.Count;
                     MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
@@ -210,6 +213,7 @@ public class Server : MonoBehaviour
                     int indiceJugador = -1;
                     int.TryParse(playerInputMsg.id, out indiceJugador);
                     vueltas = 0;
+                    velocidadPala = 5;
                     jugadoresSimulados[indiceJugador].transform.Translate(Vector3.up * velocidadPala * Time.deltaTime);
                     int cantidadJugadores = jugadores.Count;
                     MoverTanqueMsg moverTanqueMsg = new MoverTanqueMsg();
@@ -225,6 +229,7 @@ public class Server : MonoBehaviour
                 else if (juegoEmpezado && playerInputMsg.myInput == "ABAJO")
                 {
                     int indiceJugador = -1;
+                    velocidadPala = 5;
                     int.TryParse(playerInputMsg.id, out indiceJugador);
                     jugadoresSimulados[indiceJugador].transform.Translate(Vector3.down* velocidadPala * Time.deltaTime);
                     int cantidadJugadores = jugadores.Count;
@@ -239,6 +244,8 @@ public class Server : MonoBehaviour
                     Debug.Log("ABAJO");
                 }
 
+
+
                 if(juegoEmpezado && playerInputMsg.myInput == "DISPARAR")
                 {
                     int indiceJugador = -1;
@@ -250,6 +257,7 @@ public class Server : MonoBehaviour
                     moverTanqueMsg.jugador.id = playerInputMsg.id;
                     moverTanqueMsg.jugador.posJugador = jugadoresSimulados[indiceJugador].transform.position;
                     moverTanqueMsg.jugador.rotacionJugador = jugadoresSimulados[indiceJugador].transform.rotation;
+                    dispararTanqueMsg.jugador.id = playerInputMsg.id;
                     dispararTanqueMsg.posCanon = jugadoresSimulados[indiceJugador].transform.GetChild(0).GetChild(0).position;
                     disparoFlash.SetActive(true);
                     Debug.Log("PU-PUM");
