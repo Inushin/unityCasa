@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MoverProyectil : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class MoverProyectil : MonoBehaviour
     public Transform posicionInicial;
     public Quaternion posDisparo;
     public GameObject Disparo1;
+    public static int puntuacion =1;
+
 
     // Start is called before the first frame update
     void Start()
@@ -63,9 +66,12 @@ public class MoverProyectil : MonoBehaviour
         }
         else if (collision.transform.tag.Equals("Jugador2"))
         {
+            
+            GameObject.Find("Marcador1").GetComponent<Text>().text = puntuacion++ + " POINTS";
+            Debug.Log(puntuacion);
             Debug.Log("JUGADOR2");
             GameObject.Find("Jugador2").GetComponent<Animator>().SetBool("golpea", true);
-            
+
             Reiniciar();
         } else if (collision.transform.tag.Equals("Limite"))
         {
@@ -80,4 +86,5 @@ public class MoverProyectil : MonoBehaviour
         miTransform.position = this.posicionInicial.position;
         GameObject.Find("PosProyectil").GetComponent<Proyectil>().AnadirProyectil(this.gameObject);
     }
+
 }

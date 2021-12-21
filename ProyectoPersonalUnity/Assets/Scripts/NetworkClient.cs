@@ -23,7 +23,7 @@ public class NetworkClient : MonoBehaviour
     public InputField inputNombre;
 
     public string idPlayer;
-    public GameObject panelPrincipal, panelJuego;
+    public GameObject panelPrincipal, panelJuego, panelFin;
     public GameObject[] jugadoresGameObject;
     public GameObject disparoFlash;
     
@@ -180,12 +180,14 @@ public class NetworkClient : MonoBehaviour
                     Debug.Log(dispararTanqueMsg.jugador.id);
                     GameObject.Find("Jugador1").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", true);
                     GameObject.Find("PosProyectil").GetComponent<Proyectil>().CrearProyectiles(dispararTanqueMsg.posCanon);
+                    
                 }
                 if (dispararTanqueMsg.jugador.id=="1")
                 {
                     Debug.Log("JUGADOR 2");
                     GameObject.Find("Jugador2").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", true);
                     GameObject.Find("PosProyectil2").GetComponent<Proyectil2>().CrearProyectiles(dispararTanqueMsg.posCanon);
+                    
                 }
                 Debug.Log(disparoFlash.transform.position + "DISPARADO");
                 //SendToServer(JsonUtility.ToJson(dispararTanqueMsg));
@@ -211,6 +213,8 @@ public class NetworkClient : MonoBehaviour
     {
         m_Connection = default(NetworkConnection);
     }
+
+  
 
     public void OnDestroy()
     {

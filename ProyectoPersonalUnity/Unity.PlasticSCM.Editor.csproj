@@ -89,9 +89,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Configuration\ChannelCertificateUiImpl.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\Progress\ProgressControlsForMigration.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\CloudProjectDownloader\CloudProjectDownloader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesViewMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\NewIncomingChanges.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\Diff\Dialogs\GetRestorePathDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTab_Operations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\Changesets\ChangesetsListView.cs" />
@@ -117,8 +117,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Configuration\TeamEdition\TeamEditionConfigurationWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\DrawStatusBar.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\VCSPlugin.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Configuration\ToolConfig.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\Tree\ListViewItemIds.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Configuration\ToolConfig.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\CloudProjectDownloader\AutoConfigClientConf.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\AssetMenu\AssetMenuItems.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesSelection.cs" />
@@ -158,8 +158,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\DownloadPlasticExeWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\Diff\MergeCategoryTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\GUIActionRunner.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\UnityPlasticGuiMessage.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\WebApi\WebRestApiClient.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\UnityPlasticGuiMessage.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\BoolSetting.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\PendingChanges\Dialogs\LaunchCheckinConflictsDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\AssetMenu\Dialogs\CheckinDialog.cs" />
@@ -281,8 +281,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\PendingChanges\Dialogs\FilterRulesConfirmationDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Configuration\TurnOffPlastic\TurnOffPlasticWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\Progress\ProgressControlsForDialogs.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\Changesets\ChangesetListViewItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\Welcome\MacOSConfigWorkaround.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Help\HelpLink.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\DrawUserIcon.cs" />
@@ -293,8 +293,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Inspector\InspectorAssetSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoriesListView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Tool\ToolConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\Progress\DrawProgressForOperations.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Tool\ToolConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\CollabMigration\MigrationProgressRender.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Tool\FindTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\CloudProjectDownloader\ParseArguments.cs" />

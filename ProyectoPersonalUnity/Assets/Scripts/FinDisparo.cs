@@ -10,4 +10,6 @@ public class FinDisparo : MonoBehaviour
         this.gameObject.GetComponent<Animator>().SetBool("disparar", false);
     }
 
+
+
 }

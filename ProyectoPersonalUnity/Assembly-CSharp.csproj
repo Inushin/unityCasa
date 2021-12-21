@@ -53,14 +53,17 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Marcador2Texto.cs" />
+    <Compile Include="Assets\Scripts\FinDisparo.cs" />
+    <Compile Include="Assets\Scripts\MoverProyectil2.cs" />
+    <Compile Include="Assets\Scripts\Marcador1Texto.cs" />
+    <Compile Include="Assets\Scripts\Proyectil2.cs" />
     <Compile Include="Assets\Scripts\NetworkMessages.cs" />
     <Compile Include="Assets\Scripts\MoverProyectil.cs" />
     <Compile Include="Assets\Scripts\Proyectil.cs" />
     <Compile Include="Assets\Scripts\Server.cs" />
     <Compile Include="Assets\Scripts\NetworkClient.cs" />
-    <Compile Include="Assets\Scripts\Proyectil2.cs" />
-    <Compile Include="Assets\Scripts\MoverProyectil2.cs" />
-    <Compile Include="Assets\Scripts\FinDisparo.cs" />
+    <Compile Include="Assets\Scripts\FinJuego.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

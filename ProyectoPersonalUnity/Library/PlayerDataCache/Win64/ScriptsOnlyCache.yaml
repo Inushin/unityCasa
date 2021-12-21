@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - FinDisparo
+    - FinJuego
     - MoverProyectil
     - MoverProyectil2
     - NetworkClient
@@ -25,10 +26,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -74,33 +73,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1542}
+      Script: {instanceID: 7936}
     - Class: 114
-      Script: {instanceID: 2378}
+      Script: {instanceID: 8702}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 8718}
     - Class: 114
-      Script: {instanceID: 3040}
+      Script: {instanceID: 8762}
     - Class: 114
-      Script: {instanceID: 3310}
+      Script: {instanceID: 9232}
     - Class: 114
-      Script: {instanceID: 3378}
+      Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 3610}
+      Script: {instanceID: 9680}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 9748}
     - Class: 114
-      Script: {instanceID: 4390}
+      Script: {instanceID: 9980}
     - Class: 114
-      Script: {instanceID: 4854}
+      Script: {instanceID: 10106}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 10170}
     - Class: 114
-      Script: {instanceID: 19652}
+      Script: {instanceID: 10754}
     - Class: 114
-      Script: {instanceID: 30536}
+      Script: {instanceID: 11212}
     - Class: 114
-      Script: {instanceID: 74036}
+      Script: {instanceID: 11494}
+    - Class: 114
+      Script: {instanceID: 11822}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -138,6 +139,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 88516d84a5b13eafdce2f2abb10716e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Marcador2Texto
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
@@ -204,6 +211,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinDisparo
+  - hash:
+      serializedVersion: 2
+      Hash: bb7125c3b75cf20cce528f811f38f131
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoverProyectil2
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -326,6 +345,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 88516d84a5b13eafdce2f2abb10716e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Marcador1Texto
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -372,6 +397,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
     className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: e2f7a474a04a9c2cacf9785f945169af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Proyectil2
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -536,7 +567,7 @@ ScriptsOnlyBuild:
     className: Server
   - hash:
       serializedVersion: 2
-      Hash: 84861656320a20812a9250d55bc9dd54
+      Hash: fb8d21e64ee597aae6d85b246f9ac647
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NetworkClient
@@ -588,6 +619,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinJuego
   - hash:
       serializedVersion: 2
       Hash: 28cfb4bd305dd11c6326cc3ee7c14138
@@ -660,24 +697,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: e2f7a474a04a9c2cacf9785f945169af
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Proyectil2
-  - hash:
-      serializedVersion: 2
-      Hash: bb7125c3b75cf20cce528f811f38f131
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoverProyectil2
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FinDisparo
   platform: 19
   scenePathNames:
   - Assets/Scenes/Client.unity
