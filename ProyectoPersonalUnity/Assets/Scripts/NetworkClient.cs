@@ -163,7 +163,14 @@ public class NetworkClient : MonoBehaviour
                 int.TryParse(moverTanqueMsg.jugador.id, out idJugador);
                 GameObject.Find("Jugador1").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", false);
                 GameObject.Find("Jugador2").transform.GetChild(0).GetChild(0).GetComponent<Animator>().SetBool("disparar", false);
-                GameObject.Find("Jugador1").GetComponent<Animator>().SetInteger("velocidad", 1);
+                if (moverTanqueMsg.jugador.id == "0")
+                {
+                    GameObject.Find("Jugador1").GetComponent<Animator>().SetInteger("velocidad", 1);
+                }
+                if (moverTanqueMsg.jugador.id == "1")
+                {
+                    GameObject.Find("Jugador2").GetComponent<Animator>().SetInteger("velocidad", 1);
+                }
                 jugadoresGameObject[idJugador].transform.position = moverTanqueMsg.jugador.posJugador;
                 jugadoresGameObject[idJugador].transform.rotation = moverTanqueMsg.jugador.rotacionJugador;
                 break;
