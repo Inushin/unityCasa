@@ -11,7 +11,8 @@ public class MoverProyectil2 : MonoBehaviour
     public Transform posicionInicial;
     public Quaternion posDisparo;
     public GameObject Disparo2;
-    public static int puntuacion = 1;
+    public static int puntuacion;
+    public static int puntuacionEspecial = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -75,6 +76,15 @@ public class MoverProyectil2 : MonoBehaviour
         else if (collision.transform.tag.Equals("Limite"))
         {
             Debug.Log("CHOQUE LIMITE");
+            Reiniciar();
+        }
+        else if (collision.transform.tag.Equals("Enemigo"))
+        {
+            GameObject.Find("Marcador2").GetComponent<Text>().text = puntuacion + puntuacionEspecial + " POINTS";
+            Debug.Log("Golpea");
+ 
+
+            GameObject.Find("Enemigos").transform.GetChild(0).GetComponent<Animator>().SetBool("Destruccion", true);
             Reiniciar();
         }
     }

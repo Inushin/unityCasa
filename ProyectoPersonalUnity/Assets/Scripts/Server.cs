@@ -16,9 +16,11 @@ public class Server : MonoBehaviour
     public ushort serverPort;
     public NativeList<NetworkConnection> m_connections;
     public GameObject[] jugadoresSimulados;
+    public GameObject enemigo;
     public List<NetworkObject.NetworkPlayer> jugadores;
     public bool juegoEmpezado = false;
     public static float velocidadPala;
+    public static float velocidadEnemigo;
     public GameObject disparo;
     public GameObject disparoFlash;
     public int[] goles;
@@ -157,8 +159,11 @@ public class Server : MonoBehaviour
                         SendToClient(JsonUtility.ToJson(playerInputMsg), m_connections[i]);
                     }
                     juegoEmpezado = true;
+              
                     
                     Debug.Log("¡Empezar!");
+
+
 
                 }
                 else if (juegoEmpezado && playerInputMsg.myInput == "DERECHA")
@@ -243,6 +248,8 @@ public class Server : MonoBehaviour
                     }
                     Debug.Log("ABAJO");
                 }
+
+   
 
 
 

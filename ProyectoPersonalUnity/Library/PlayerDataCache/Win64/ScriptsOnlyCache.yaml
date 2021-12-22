@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FinDisparo
     - FinJuego
+    - MoverEnemigo
     - MoverProyectil
     - MoverProyectil2
     - NetworkClient
@@ -12,6 +13,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -25,8 +27,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -72,35 +76,37 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1542}
+      Script: {instanceID: 7936}
     - Class: 114
-      Script: {instanceID: 2320}
+      Script: {instanceID: 8702}
     - Class: 114
-      Script: {instanceID: 2336}
+      Script: {instanceID: 8718}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 8762}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 9232}
     - Class: 114
-      Script: {instanceID: 3046}
+      Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 9680}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 9748}
     - Class: 114
-      Script: {instanceID: 3620}
+      Script: {instanceID: 9980}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 10106}
     - Class: 114
-      Script: {instanceID: 3812}
+      Script: {instanceID: 10170}
     - Class: 114
-      Script: {instanceID: 4400}
+      Script: {instanceID: 10754}
     - Class: 114
-      Script: {instanceID: 4864}
+      Script: {instanceID: 11212}
     - Class: 114
-      Script: {instanceID: 5156}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 5486}
+      Script: {instanceID: 11822}
+    - Class: 114
+      Script: {instanceID: 36904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -560,7 +566,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: 7c9f05f8ab873e19c5a18512331a8cb9
+      Hash: 47dd640bc546923ce78836d5a08115c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Server
@@ -696,6 +702,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoverEnemigo
   platform: 19
   scenePathNames:
   - Assets/Scenes/Client.unity

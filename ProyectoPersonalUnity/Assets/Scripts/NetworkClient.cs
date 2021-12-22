@@ -154,7 +154,7 @@ public class NetworkClient : MonoBehaviour
                 PlayerInputMsg playerInputRecibido = JsonUtility.FromJson<PlayerInputMsg>(recMsg);
                 if(playerInputRecibido.myInput == "EMPEZAR")
                 {
-
+                    GameObject.Find("Enemigos").transform.GetChild(0).gameObject.SetActive(true);
                 }
                 break;
             case Commands.MOVER_TANQUE:

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Server.cs" />
     <Compile Include="Assets\Scripts\NetworkClient.cs" />
     <Compile Include="Assets\Scripts\FinJuego.cs" />
+    <Compile Include="Assets\Scripts\MoverEnemigo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
